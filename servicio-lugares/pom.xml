@@ -18,6 +18,11 @@
 	</properties>
 	<dependencies>
 		<dependency>
+			<groupId>co.edu.ucentral.common.lugares</groupId>
+			<artifactId>common-lugares</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
 			<groupId>co.edu.ucentral.commons.services</groupId>
 			<artifactId>commons-services</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
@@ -55,6 +60,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 	</dependencies>
 
 	<build>

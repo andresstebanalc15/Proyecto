@@ -1,4 +1,4 @@
-package co.edu.ucentral.servicio.lugares.model;
+package co.edu.ucentral.common.lugares.model;
 
 import javax.persistence.*;
 import java.io.Serializable;

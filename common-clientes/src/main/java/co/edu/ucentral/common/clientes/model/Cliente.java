@@ -1,4 +1,4 @@
-package co.edu.ucentral.servicio.clientes.model;
+package co.edu.ucentral.common.clientes.model;
 
 import javax.persistence.*;
 
