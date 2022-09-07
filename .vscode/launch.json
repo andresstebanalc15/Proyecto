@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ServicioClientesApplication",
+      "request": "launch",
+      "mainClass": "co.edu.ucentral.servicio.clientes.ServicioClientesApplication",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "Spring Boot-ServicioProductosApplication<servicio-productos>",
       "request": "launch",
       "cwd": "${workspaceFolder}",
@@ -17,6 +24,26 @@
       "cwd": "${workspaceFolder}",
       "mainClass": "co.edu.ucentral.servicio.envios.ServicioEnviosApplication",
       "projectName": "servicio-envios",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ServicioClientesApplication<servicio-clientes>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "co.edu.ucentral.servicio.clientes.ServicioClientesApplication",
+      "projectName": "servicio-clientes",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ServicioLugaresApplication<servicio-lugares>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "co.edu.ucentral.servicio.lugares.ServicioLugaresApplication",
+      "projectName": "servicio-lugares",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
     }
